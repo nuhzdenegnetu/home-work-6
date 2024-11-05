@@ -1,0 +1,53 @@
+/* Оформление документа */
+* {
+    box-sizing: border-box;
+}
+body {
+    padding: 50px 0 0;
+    background-attachment: fixed;
+}
+.main {
+    width: 90%;
+    height: 80%;
+    min-height: 500px;
+    margin: 0 auto;
+    padding: 25px;
+    text-align: center;
+    opacity: 0.8;
+    border-radius: 10px;
+    background-color: #ece0ca;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+/* Общее оформление таблицы */
+table {
+    margin: 50px auto;
+    border-collapse: collapse;
+}
+td {
+    width: 33%;
+    height: 50px;
+    text-align: center;
+    border: 2px solid #808080;
+}
+/* Специальные правила для уникальных размерностей таблиц и ячеек */
+.w-90 {
+    width: 90%;
+}
+.w-80 {
+    width: 80%;
+}
+.w-75 {
+    width: 75%;
+}
+.w-60 {
+    width: 60%;
+}
+.w-40 {
+    width: 40%;
+}
+.w-28 {
+    width: 28%;
+}
+.h-200 {
+    height: 200px;
+}

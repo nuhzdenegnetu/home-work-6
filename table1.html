@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main>
+    <table class="w-90">
+        <caption>Родительская таблица</caption>
+        <tr>
+            <td colspan="2" class="w-40">1-2</td>
+            <td class="w-60">3</td>
+        </tr>
+        <tr>
+            <td class="w-28">4</td>
+            <td colspan="2" rowspan="2">
+                <table class="w-80">
+                    <caption>Дочерная таблица</caption>
+                    <tr>
+                        <td>1</td>
+                        <td rowspan="2">2-5-8</td>
+                        <td class="h-200">3-6</td>
+                    </tr>
+                    <tr>
+                        <td class="h-200">4-7</td>
+                        <td>9</td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <td class="w-28">7</td>
+        </tr>
+    </table>
+</main>
+</body>
+</html>
