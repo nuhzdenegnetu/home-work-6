@@ -7,6 +7,9 @@
 </head>
 <body>
 <main>
+    <a href="table1.html" class="table-1">table1</a>
+    <a href="../table2/table2.html" class="table-2">table mondrian</a>
+    <a href="../index.html">index</a>
     <table class="w-90">
         <caption>Родительская таблица</caption>
         <tr>
@@ -20,11 +23,13 @@
                     <caption>Дочерная таблица</caption>
                     <tr>
                         <td>1</td>
-                        <td rowspan="2">2-5-8</td>
-                        <td class="h-200">3-6</td>
+                        <td rowspan="3">2-5-8</td>
+                        <td rowspan="2" class="h-200">3-6</td>
                     </tr>
                     <tr>
-                        <td class="h-200">4-7</td>
+                        <td class="h-200" rowspan="2">4-7</td>
+                    </tr>
+                    <tr>
                         <td>9</td>
                     </tr>
                 </table>

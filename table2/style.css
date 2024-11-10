@@ -16,6 +16,13 @@ td {
     text-align: center;
     border: 10px solid #000000;
 }
+a{
+    text-decoration: none;
+    font-size: 86px;
+    color: black;
+    font-family: "Roboto Light", serif;
+    margin: 100px;
+}
 .yellow {
     background-color: yellow;
 }

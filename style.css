@@ -1,0 +1,12 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    font-size: 86px;
+    color: black;
+    font-family: "Roboto Light", serif;
+    margin: 100px;
+}
